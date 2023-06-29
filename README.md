@@ -1,5 +1,5 @@
 # This is Resume Project, this is my hobby project.
-## Technologies Used To implement this project
+## Technologies Used To Implement This Project
 #### Frontend
 * HTML
 * CSS
