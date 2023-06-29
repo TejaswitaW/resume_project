@@ -3,6 +3,7 @@
 # Frontend
 * HTML
 * CSS
+    * Bootstrap
 * JS
 # Backend
 * Python,Django Framework
