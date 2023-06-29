@@ -1,11 +1,11 @@
 # This is Resume Project, this is my hobby project.
-#### Technologies Used To implement this project
-# Frontend
+## Technologies Used To implement this project
+#### Frontend
 * HTML
 * CSS
     * Bootstrap
 * JS
-# Backend
+#### Backend
 * Python
      * Django Framework
 # To run this project
