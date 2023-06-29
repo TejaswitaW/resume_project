@@ -8,7 +8,7 @@
 #### Backend
 * Python
      * Django Framework
-# To run this project
+#### To run this project
 * Clone Repository
 * Go to main project folder i.e resumeproject, then run following command,
   python manage.py runserver
