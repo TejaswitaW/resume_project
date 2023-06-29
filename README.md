@@ -1,4 +1,4 @@
-# This is Resume Project, this is my hobby project.
+# This is hobby project.
 ## Technologies Used To Implement This Project
 #### Frontend
 * HTML
