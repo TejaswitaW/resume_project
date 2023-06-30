@@ -1,43 +1,31 @@
-<!DOCTYPE html>
+{% extends 'core/base.html' %}
 {% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'core/css/all.min.css' %}">
-    <link rel="stylesheet" href="{% static 'core/css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'core/css/core.css' %}">
-    <title>Home</title>
-</head>
-<body>
-   <div class="container-fluid bg-dark">
-    <div class="row">
-        <div class="col-sm-2">
-            <div class="border border-warning h-100">
-                <div class="text-center">
-                    <img src="{% static 'core/images/girl.jpg' %}" alt="profile picture" class="img-fluid rounded-circle mt-5" width="100px" height="100px">
-                    <h3 class="text-white mt-3">Tina Alan</h3>
-                </div>
-                <hr class="border-light">
-                <nav class="nav flex-column text-center">
-                    <a href="" class="nav-link">Home</a>
-                    <a href="" class="nav-link">Services</a>
-                    <a href="" class="nav-link">Skill</a>
-                    <a href="" class="nav-link">Contact</a>
-                </nav>
-            </div>
-            
-        </div>
-        <div class="col-sm-10">
-            Main Content
-        </div>
-
+{% block content %} 
+<div class="mt-5">
+    <div class="mt-5 text-center">
+        <img src="{% static 'core/images/profile_pic.png' %}" alt="Profile Picture" 
+     class="img-thumbnail" width="250px" height="150px">
     </div>
-   </div>
-    <script src="{% static 'core/js/jquery.js' %}"></script>
-    <script src="{% static 'core/js/popper.js' %}"></script>
-    <script src="{% static 'core/js/all.min.js' %}"></script>
-    <script src="{% static 'core/js/bootstrap.js' %}"></script>
-</body>
-</html>
+    
+     <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1> 
+        <div class="px-4" style="line-height: 2rem;">
+        <p style="text-indent: 100px;">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Atque recusandae incidunt beatae voluptas nihil, iure accusantium sunt 
+            porro molestiae illo deleniti consequatur alias omnis labore non corrupti! Delectus,
+            consectetur dolore!
+        </p>
+        <p style="text-indent: 100px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat fugit
+            temporibus quibusdam, corporis eius minus dolor voluptas qui
+            quidem quaerat et obcaecati ab voluptatum recusandae laborum tempora! Omnis, odit?
+        </p>
+        </div>
+     </div>
+     <div class="text-center">
+        <a href="" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+        <a href="" class="btn btn-outline-info my-3">Contact</a>
+     </div>    
+</div>
+{% endblock content %}

@@ -1,10 +1,10 @@
-body{
-    background-color: chartreuse;
+/* Font */
+.st-font{
+    font-family: 'Satisfy', cursive;
 }
-h1{
-    color: blue;
+html,body{
+    height: 100%;
 }
-h2{
-    color: darkblue;
-    font-size: medium;
+.container-fluid{
+    min-height: 100%;
 }
